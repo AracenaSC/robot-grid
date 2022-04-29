@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px 20px;
+    justify-content: center;
+}
+
+.box {
+    text-align: center;
+    background-color: #d8d2cd;
+    border: 2px solid #332a2a;
+}
+
+.wall {
+    background-color: #332a2a;
+    border: 2px solid #332a2a;
+}
+
+#start {
+    text-align: center;
+    background-color: #ffe75d;
+    border: 2px solid #332a2a;
+}
+
+#goal {
+    text-align: center;
+    background-color: #a7da57;
+    border: 2px solid #332a2a;
+}
